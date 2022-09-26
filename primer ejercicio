@@ -1,6 +1,0 @@
-a="antonio"
-b="lopez"
-print (a+b)
-a=5
-b=9
-print (a+b)
