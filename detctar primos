@@ -1,0 +1,10 @@
+# detector de primo
+# Lee un numero y da sus divisores
+# si es un primo
+def detector_primos():
+    num=input("DIME UN NUMERO ENTERO: ")
+    for cont in range(num-1,0,-1)
+        resto=num%cont
+         if(resto==0)
+detector_primos()
+    
