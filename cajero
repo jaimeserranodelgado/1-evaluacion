@@ -1,10 +1,21 @@
 # Este programa actua como un cajero
-def cajero ():
-    saldo=int(input("Cuanto saldo desea agragar? "))
-    print(saldo)
-    retiarar=int(input("Quiere retirar parte de su dinero?"))
-    if (retirar=si):
-            print("cuanto dinero desea retirar?")
-    else
+def cajero():
+    pregunta = input("¿Quiere ingresar saldo?" (si o no))
+    if pregunta== si
+def ingresar_dinero():
+   
+        saldo_nuevo = int(input("Ingrese la cantidad a ingresar a su cuenta: "))
+        total_saldo = saldo + saldo_nuevo
+        print("Ingresado con exito")
+        pregunta = input("¿Quiere retirar saldo? (Si o no)")
+        if pregunta == "si":
+            retirar_dinero = int(input("Por favor ingrese la cantidad a retirar: "))
+            print("RETIRADO CON EXITO"):
+            total_saldo = total_saldo - saldo_retirar
+            print("Su saldo actual es: ", total_saldo)
+        else:
+            print("Gracias por su confianza")    
+saldo=0
+total_saldo=0
     
-cajero ()
+cajero()
