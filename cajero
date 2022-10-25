@@ -18,7 +18,7 @@ def pregunta():
     elif pregunta == "3":
         if dinero == 0:
             print("No puedes sacar dinero.")
-            print(f"Tienes 0€ en la cuenta.")
+            print(f"Tienes {dinero}€ en la cuenta.")
             pregunta()
         else:
             sacar()
@@ -50,13 +50,12 @@ def sacar():
         print("No tienes tanto dinero en la cuenta.")
         print(f"Tienes {dinero}€ en la cuenta.")
         sacar()
-    elif dinero_sacar < 0:
-        print("No puedes sacar dinero negativo.")
+    elif dinero_sacar <= 0:
+        print("No puedes sacar dinero.")
         sacar()
     else:
         dinero = dinero - dinero_sacar
         print (f"Has sacado {dinero_sacar}€.")
         print (f"Tienes {dinero}€ en la cuenta.")
         pregunta()
-
 pregunta()
