@@ -1,6 +1,7 @@
 # Meter una cantidad de dinero
 # Pregunta si quieres sacar dinero
 # Si puedes sacar ese dinero te da la cantidad que tu quieres
+print("***************MENU*********************")
 print("Para saber cuanto dinero tienes en la cuenta, escribe '1'")
 print("Para meter dinero, escribe '2'")
 print("Para sacar dinero, escribe '3'")
