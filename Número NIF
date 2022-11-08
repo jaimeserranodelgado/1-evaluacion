@@ -1,0 +1,18 @@
+def numero_nif():
+    nif = input("Introduce tu numero nif (xxxxxxxx-x): ")
+    if nif[8:9] != "-":
+        print("Has introducido más o menos números de la cuenta.")
+        numero_nif()
+    else:
+        num_nif = int(nif[0:-2])
+        num_letra = num_nif%23
+        letra_nif = nif[9:]
+        palabra_nif = "TRWAGMYFPDXBNJZSQVHLCKE"
+        if palabra_nif[num_letra] != letra_nif:
+            print("Tu DNI es incorrecto.")
+            print("Vuelve a introducirlo.")
+            numero_nif()
+        else:
+            print("Tu DNI es correcto.")
+
+numero_nif()
