@@ -8,10 +8,13 @@ def esVocal(letra):
 def deletreo():
     palabra=input("Dime una palabra: ")
     cuentavocales=0
+    cuentaconsonantes=0
     for cont in range(0,len(palabra)):
         print(palabra[cont]+ ' ')
         if(esVocal(palabra[cont])==True):
             cuentavocales=cuentavocales+1
-    print("Tiene "+str(cuentavocales) +" vocales")
-
+        else:
+            cuentaconsonantes=cuentaconsonantes+1
+    print("Tienes "+str(cuentavocales) +" vocales")
+    print("Tienes " +str(cuentaconsonantes) +" consonantes")
 deletreo()
