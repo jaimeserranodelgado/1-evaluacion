@@ -1,0 +1,8 @@
+continuar=True
+while(continuar==True):
+    respuesta=int(input("Dime un numero par: "))
+    if(respuesta%2==0):
+        print("lo has hecho bien")
+        continuar==False
+    else:
+        print("No es par. Vuelve a introducirlo")
