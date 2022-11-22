@@ -1,3 +1,11 @@
+#Le dices una contraseña y te dice si es valida
+
+print("*************Validar contraseñas*************")
+print("Escriba una contraseña con minimo: ")
+print("-1 mayúscula")
+print("-1 minúscula")
+print("-1 numero")
+print("-8 caracteres")
 def prueba_palabras():
     contraseña = input("Introduce una contraseña: ")
     if contraseña.islower() or contraseña.isupper():
