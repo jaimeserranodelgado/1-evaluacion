@@ -3,6 +3,13 @@ def prueba_palabras():
     if contraseña.islower() or contraseña.isupper():
         print("No cumple el criterio de tener mayúsculas y minúsculas")
     else:
-        print("Sí cumple el criterio de tener mayúsculas y minúsculas")
-        
+        print("Cumple el criterio de tener mayúsculas y minúsculas")
+    if len(contraseña) <8:
+        print("No tiene el minimo de caracteres requeridos")
+    else:
+        print("Cumple con el minimo de caracteres requeridos")
+    if contraseña.isalpha():
+        print("No tiene el minimo de numeros requeridos")
+    else:
+        print("Cumple con el minimo de numeros")
 prueba_palabras()
